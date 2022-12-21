@@ -1,10 +1,7 @@
-const myElement = (
-    <ul>
-        <li>text1</li>
-        <li>text2</li>
-        <li>text3</li>
-    </ul>
-)
+
+function Car(){
+    return <h2>Hi, I am dananjaya</h2>;
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);
+root.render(<Car />);
